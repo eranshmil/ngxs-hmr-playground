@@ -10,8 +10,6 @@ import { Lazy2ChangeAction } from '../../lazy2.state';
   styleUrls: ['./lazy2.component.scss'],
 })
 export class Lazy2Component implements OnInit {
-  dsa: number;
-
   constructor(private _store: Store) {}
 
   ngOnInit() {
