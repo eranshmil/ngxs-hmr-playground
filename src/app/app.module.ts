@@ -12,6 +12,7 @@ import { NgxsRouterPluginModule } from '@ngxs/router-plugin';
 import { NgxsHmrLifeCycle, NgxsStoreSnapshot } from '@ngxs/hmr-plugin';
 import { StateOperations } from '@ngxs/store';
 
+import { EagerModule } from './eager/eager.module';
 import { environment } from '../environments/environment';
 
 @NgModule({
@@ -25,6 +26,7 @@ import { environment } from '../environments/environment';
     NgxsReduxDevtoolsPluginModule.forRoot(),
     NgxsLoggerPluginModule.forRoot(),
     NgxsRouterPluginModule.forRoot(),
+    EagerModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
