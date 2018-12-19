@@ -13,9 +13,9 @@ export const enum ActionStatus {
   Errored = 'ERRORED'
 }
 
-export interface ActionContext {
+export interface ActionContext<T = any> {
   status: ActionStatus;
-  action: any;
+  action: T;
   error?: Error;
 }
 
