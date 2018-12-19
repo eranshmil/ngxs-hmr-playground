@@ -299,31 +299,45 @@
     tree-kill "1.2.0"
     webpack-sources "1.2.0"
 
-"@ngxs/devtools-plugin@^3.3.3-dev.master-3bcb060":
-  version "3.3.3-dev.master-3bcb060"
-  resolved "https://registry.yarnpkg.com/@ngxs/devtools-plugin/-/devtools-plugin-3.3.3-dev.master-3bcb060.tgz#6cea1b82918826972600ee303b77a93b4fbbd3b1"
-  integrity sha512-wpBhPltkxFm3uLHq14HgWzQA3bLrN69o3cKYTjGNLFf8vT51113ZbsFOlgREjWMvnCwVsYY2ej2y+jmhw7wMNA==
+"@ngxs/devtools-plugin@^3.3.3-dev.master-bd16c95":
+  version "3.3.3-dev.master-bd16c95"
+  resolved "https://registry.yarnpkg.com/@ngxs/devtools-plugin/-/devtools-plugin-3.3.3-dev.master-bd16c95.tgz#553ebb90bb8231129732a82e27f57185303599c9"
+  integrity sha512-XqoQ5UFJmXNIlZrtyL0meswF89/72vTQU8nINslDwpPrND4wt3FJLgy4KYLLnXAlTfs0RxjWM4TbXIJA3tq/hA==
   dependencies:
     tslib "^1.9.0"
 
-"@ngxs/logger-plugin@^3.3.3-dev.master-3bcb060":
-  version "3.3.3-dev.master-3bcb060"
-  resolved "https://registry.yarnpkg.com/@ngxs/logger-plugin/-/logger-plugin-3.3.3-dev.master-3bcb060.tgz#189a4d79e7bfc14def5a5274cb4a1e850e62921e"
-  integrity sha512-QewJ6rGnQ4bbBCucuRTgzhFtF08sdq34Nii/krfq1z99t1/JMFUp0cDlNeQ1H74pd9Pk+/3IYmtse0kbMXCFPg==
+"@ngxs/hmr-plugin@^3.3.3-dev.master-bd16c95":
+  version "3.3.3-dev.master-bd16c95"
+  resolved "https://registry.yarnpkg.com/@ngxs/hmr-plugin/-/hmr-plugin-3.3.3-dev.master-bd16c95.tgz#a021f1a930579557e6005b6eaa07638b2e9c292f"
+  integrity sha512-udbHvyDKVetAhXWx2Iejkzp2RKq4QyYjOYpfcu/mfDZZWktz7Twf0SVKHhQk5rMTbto59VrxrRB+E6vZLSD2PA==
   dependencies:
     tslib "^1.9.0"
 
-"@ngxs/router-plugin@^3.3.3-dev.master-3bcb060":
-  version "3.3.3-dev.master-3bcb060"
-  resolved "https://registry.yarnpkg.com/@ngxs/router-plugin/-/router-plugin-3.3.3-dev.master-3bcb060.tgz#fd75cf706b6a8f698f349b4f96527780034607fa"
-  integrity sha512-CysvSjsTXxtFKaOXcnWiFcKZGyPAM3gZNjRb8cdezOzamfaN+qPFU/Gqd5e3TSkX9AG55A02BHen5SLKqWvnGw==
+"@ngxs/logger-plugin@^3.3.3-dev.master-bd16c95":
+  version "3.3.3-dev.master-bd16c95"
+  resolved "https://registry.yarnpkg.com/@ngxs/logger-plugin/-/logger-plugin-3.3.3-dev.master-bd16c95.tgz#65aa927aac429b5cd5c11b7f006837828b8c8dd3"
+  integrity sha512-PArDw9wH2iGTDQ9jajRa1twlzFdfvmuQTKGSOCUquNV+u7tlh9Jrw2s18GQt82t2Akyliv0Maq/y2/e9K5P7Rw==
   dependencies:
     tslib "^1.9.0"
 
-"@ngxs/storage-plugin@^3.3.3-dev.master-3bcb060":
-  version "3.3.3-dev.master-3bcb060"
-  resolved "https://registry.yarnpkg.com/@ngxs/storage-plugin/-/storage-plugin-3.3.3-dev.master-3bcb060.tgz#56817678aaa1316dfb8c857915dbd15afbda46c7"
-  integrity sha512-3s5FPQkjjqg/M1Cnks/WA3OE2pspgebUdBn6Eu9BfjFCFyuHQkij2ZugwW/zhUk5CzkUfWIaIfdeiiDR/GKUaQ==
+"@ngxs/router-plugin@^3.3.3-dev.master-bd16c95":
+  version "3.3.3-dev.master-bd16c95"
+  resolved "https://registry.yarnpkg.com/@ngxs/router-plugin/-/router-plugin-3.3.3-dev.master-bd16c95.tgz#a97142b01349d612a00bf8fe9f6091f3379f2d0f"
+  integrity sha512-NvOMtx/D1tqAqyiUD3XFXsduH+0IfYQ4jJNQzuMLRzFwrKdkhBOtLue6uwOQ9dB3K0aTRLHFs7OTUNrlPBwoAA==
+  dependencies:
+    tslib "^1.9.0"
+
+"@ngxs/storage-plugin@^3.3.3-dev.master-bd16c95":
+  version "3.3.3-dev.master-bd16c95"
+  resolved "https://registry.yarnpkg.com/@ngxs/storage-plugin/-/storage-plugin-3.3.3-dev.master-bd16c95.tgz#6f84ee296b73038a0530259b035780b31772609a"
+  integrity sha512-8aA3qmLQIvyKF/zIv8Oxcu7W62hP0vesGJCLD9zcuw34VCkybGdySsYQJGWMO9Bo+TUAlwPreBryddaK9GVyZg==
+  dependencies:
+    tslib "^1.9.0"
+
+"@ngxs/store@^3.3.3-dev.master-bd16c95":
+  version "3.3.3-dev.master-bd16c95"
+  resolved "https://registry.yarnpkg.com/@ngxs/store/-/store-3.3.3-dev.master-bd16c95.tgz#0934e3bbd4dad0dbd7717f98843a5163a718e121"
+  integrity sha512-3vapFcyghJL5f74aAe/Jk6hlmE0w7oFJ6YetZt/ZU4kTj6z6D58kL8JcVF3/BCEXwl7Iwi/qseo8mpeKlSbeag==
   dependencies:
     tslib "^1.9.0"
 
